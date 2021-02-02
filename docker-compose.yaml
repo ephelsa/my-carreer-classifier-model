@@ -1,0 +1,9 @@
+version: "3.8"
+
+services: 
+  model:
+    image: my-career_model
+    container_name: my-career_model
+    build: .
+    ports: 
+      - "9091:8000"
